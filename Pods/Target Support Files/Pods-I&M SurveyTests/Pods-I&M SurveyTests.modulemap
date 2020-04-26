@@ -1,0 +1,6 @@
+framework module Pods_I_M_SurveyTests {
+  umbrella header "Pods-I&M SurveyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

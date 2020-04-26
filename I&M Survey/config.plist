@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>environments</key>
+        <array>
+            <dict>
+                <key>base-path</key>
+                <string>http://35.235.64.188</string>
+                <key>end-point</key>
+                <string>/survey/</string>
+                <key>app-timeout</key>
+                <integer>2</integer>
+                <key>name</key>
+                <string>Development</string>
+                <key>active</key>
+                <true/>
+            </dict>
+            <dict>
+                <key>base-path</key>
+                <string>http://35.235.64.188</string>
+                <key>end-point</key>
+                <string>/survey/</string>
+                <key>app-timeout</key>
+                <integer>1</integer>
+                <key>name</key>
+                <string>Production</string>
+                <key>active</key>
+                <false/>
+            </dict>
+        </array>
+        <key>reset-db</key>
+        <true/>
+        <key>client-name</key>
+        <string>I and M</string>
+        <key>messages</key>
+        <dict>
+            <key>request-success</key>
+            <string>Request Received Successfully</string>
+            <key>conn-error</key>
+            <string>You have a Slow or No Internet Access. Connection to I and M Survey App service has failed</string>
+            <key>service-error</key>
+            <string>Service Error. Please try again after some time</string>
+            <key>app-update</key>
+            <string>A new version of I and M Survey App has been released on Apple Store
+                Its highly recommended to update and enjoy fixes and new features
+                
+                Tap &apos;UPDATE&apos; to view in Apple Store ..</string>
+        </dict>
+        <key>urls</key>
+        <dict>
+            <key>app-store</key>
+            <string>https://apps.apple.com/us/app/</string>
+        </dict>
+         <key>headers</key>
+         <dict>
+             <key>app-id</key>
+             <string>1</string>
+             <key>version-name</key>
+             <string>1.0.0</string>
+         </dict>
+    </dict>
+</plist>
